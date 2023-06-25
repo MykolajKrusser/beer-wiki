@@ -1,5 +1,5 @@
-import { getBeer } from '../../api';
-import { Beer } from '../../types';
+import {getBeer} from '../../api';
+import type {Beer} from '../../types';
 import handle from '../../utils/error';
 
 const fetchData = (setData: (data: Beer) => void, id?: string) => {
@@ -15,4 +15,4 @@ const fetchData = (setData: (data: Beer) => void, id?: string) => {
   })();
 };
 
-export { fetchData };
+export {fetchData};
