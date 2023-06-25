@@ -56,7 +56,6 @@ const Beer = () => {
                 </div>
               }
             </main>
-
           </section> :
 
           <section className={styles.container}>
